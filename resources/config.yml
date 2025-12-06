@@ -1,0 +1,14 @@
+prefix: "&7[&bSpawnerBreaker&7] "
+
+no_permission_drop: "&cYou cannot collect this spawner!"
+required_break_permission: "Spawner.Breaker.break"
+
+silk_touch_required: false
+
+messages:
+  reloaded: "&aConfiguration reloaded!"
+  help_header: "&b------ SpawnerBreaker Help ------"
+  help_footer: "&b-------------------------------"
+  setpermission_success: "&aRequired spawner break permission set to: &e%perm%"
+  no_silk_touch: "&cYou need &eSilk Touch &cto collect this spawner!"
+  silktouch_updated: "&aSilk Touch requirement is now: &e%state%"

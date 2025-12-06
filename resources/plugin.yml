@@ -1,0 +1,9 @@
+name: SpawnerBreaker
+version: 1.0.0
+main: org.ISoma05.spawnerBreaker.SpawnerBreaker
+api-version: '1.21'
+
+commands:
+  spawnerbreaker:
+    description: Main command for SpawnerBreaker
+    usage: /spawnerbreaker
