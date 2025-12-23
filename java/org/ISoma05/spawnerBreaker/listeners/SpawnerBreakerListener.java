@@ -42,7 +42,6 @@ public class SpawnerBreakerListener implements Listener {
         ItemStack tool = player.getInventory().getItemInMainHand();
         boolean hasSilk = tool != null && tool.containsEnchantment(Enchantment.SILK_TOUCH);
 
-        // 1. NO PERMISSION → normal break + XP, no drop
         if (!player.hasPermission(requiredPerm)) {
             player.sendMessage(prefix + ChatColor.translateAlternateColorCodes('&',
                     plugin.getConfig().getString("no_permission_drop")));
@@ -50,7 +49,6 @@ public class SpawnerBreakerListener implements Listener {
             return;
         }
 
-        // 2. HAS PERMISSION but Silk Touch is required and NOT present → no drop
         if (silkRequired && !hasSilk) {
             player.sendMessage(prefix + ChatColor.translateAlternateColorCodes('&',
                     plugin.getConfig().getString("messages.no_silk_touch")));
@@ -58,7 +56,6 @@ public class SpawnerBreakerListener implements Listener {
             return;
         }
 
-        // 3. PLAYER CAN RECEIVE SPAWNER → no XP drop
         event.setExpToDrop(0);
 
         BlockState state = block.getState();

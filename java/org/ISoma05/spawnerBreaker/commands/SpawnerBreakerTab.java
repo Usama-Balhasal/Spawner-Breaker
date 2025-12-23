@@ -16,7 +16,6 @@ public class SpawnerBreakerTab implements TabCompleter {
 
         if (!(sender instanceof Player player)) return completions;
 
-        // /spawnerbreaker <sub>
         if (args.length == 1) {
             if (player.hasPermission("Spawner.Breaker.help"))
                 completions.add("help");
@@ -30,7 +29,6 @@ public class SpawnerBreakerTab implements TabCompleter {
             return completions;
         }
 
-        // /spawnerbreaker silktouch <enabled|disabled>
         if (args.length == 2 && args[0].equalsIgnoreCase("silktouch")) {
             if (player.hasPermission("Spawner.Breaker.silktouch")) {
                 completions.add("enabled");
