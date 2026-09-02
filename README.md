@@ -137,9 +137,14 @@ src/main/java/org/ISoma05/spawnerBreaker/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
-**VLX Soma** - *Initial work*
+**Usama Balhasal**
+
+- LinkedIn: [Usama Balhasal](https://www.linkedin.com/in/usama-balhasal/)
+- Instagram: [@vlx_soma](https://www.instagram.com/vlx_soma/)
+- Facebook: [Usama Balhasal](https://www.facebook.com/usama.balhasal.05/)
+- GitHub: [@vlxb](https://github.com/Usama-Balhasal)
 
 ## 🤝 Contributing
 
